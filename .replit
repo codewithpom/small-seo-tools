@@ -1,4 +1,4 @@
-run = "python3 networking/whois-checker.py"
+run = "python seo/page-size-checker.py"
 
 # The primary language of the repl. There can be others, though!
 language = "python3"

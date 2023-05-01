@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.nodejs-16_x
     pkgs.jq.bin
     pkgs.jq.bin
     pkgs.busybox
