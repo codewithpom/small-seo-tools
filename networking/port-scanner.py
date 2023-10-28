@@ -35,7 +35,7 @@ for port in most_common_ports:
 
   while True:
     try:
-      thread = threading.Thread(target =port_scanner, args=[int(port)])
+      thread = threading.Thread(target=port_scanner, args=[int(port)])
       thread.start()
       break
       
